@@ -1,0 +1,108 @@
+.footer-wrap {
+  border-top: 10px solid #f8f8f8;
+  height: 320px;
+  background-color: #e1e1e1; /* Light grey background */
+}
+
+.footer-wrapper {
+  display: flex;
+  width: 81%;
+  margin: 0 auto;
+  justify-content: space-between;
+  color: #545454;
+  font-size: 13px;
+  padding-top: 50px;
+}
+
+.footer-wrapper ul {
+  list-style-type: none;
+  padding-top: 12px;
+}
+
+.footer-wrapper ul li {
+  padding-top: 2px;
+  height: 27px;
+  text-align: left;
+  cursor: pointer;
+  color: #6a6a6a;
+}
+
+.footer-wrapper ul li:hover {
+  color: #ec1943;
+}
+
+.column-one {
+  width: 345px;
+  text-align: left;
+}
+
+.column-one img {
+  height: 25px;
+  width: 150px;
+}
+
+h3 {
+  margin-top: 0;
+  text-align: left;
+  padding-left: 0; /* Adjust if needed */
+}
+
+.column-two,
+.column-three {
+  flex: 1;
+}
+
+.column-four {
+  width: 345px;
+}
+
+.column-four h3 {
+  margin-top: 0;
+  text-align: left;
+  padding-left: 0; /* Adjust if needed */
+}
+
+.column-four p {
+  text-align: left;
+  padding-left: 0; /* Adjust if needed */
+  color: #6a6a6a;
+  margin-bottom: 20px; /* Add space between paragraph and social media icons */
+}
+
+.social-media-contact {
+  display: flex; /* Align icons horizontally */
+  align-items: center; /* Vertically align icons */
+  gap: 10px; /* Space between icons */
+  padding-left: 0; /* Align icons to the left */
+}
+
+.social-connect {
+  width: 30px; /* Consistent size for all icons */
+  height: 30px; /* Ensure icons are square */
+  cursor: pointer;
+}
+
+
+.social-connect:last-of-type {
+  width: 25px; /* Specific width for the Instagram logo */
+  padding-bottom: 2px; /* Additional styling for Instagram */
+}
+
+.social-media-contact h3 {
+  margin: 0; /* Remove default margin from the heading */
+}
+
+
+.social-icons {
+  display: flex; /* Arrange icons horizontally */
+  gap: 10px; /* Space between icons */
+  margin-top: 10px; /* Space between heading and icons */
+}
+
+/* Media Queries */
+
+@media only screen and (min-width: 1600px) {
+  .footer-wrapper {
+    width: 65%;
+  }
+}
